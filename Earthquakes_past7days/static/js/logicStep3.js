@@ -88,33 +88,3 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     }
   }).addTo(map);
 });
-
-
-
-// Accessing the Toronto neighborhoods GeoJSON URL.
-//let torontoHoods = "https://raw.githubusercontent.com/melyssasibal/mapping-earthquakes/Mapping_GeoJSON_Polygons/torontoNeighborhoods.json";
-
-// Accessing the Toronto airline routes GeoJSON URL.
-//let torontoData = "https://raw.githubusercontent.com/melyssasibal/mapping-earthquakes/Mapping_GeoJSON_Linestrings/torontoRoutes.json";
-
-// Accessing the airport GeoJSON URL
-//let airportData = "https://raw.githubusercontent.com/melyssasibal/mapping-earthquakes/main/majorAirports.json";
-
-//let myStyle = {
-//  color: "#ffffa1",
-//  weight: 2
-//}
-// Grabbing our GeoJSON data.
-//d3.json(torontoHoods).then(function(data) {
-//  console.log(data);
-// Creating a GeoJSON layer with the retrieved data.
-//L.geoJson(data, {
-//  color: "blue",
-//  weight: 1,
-//  fill: true,
-//  fillColor: "yellow",
-//  onEachFeature: function(feature, layer) {
-//    layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>")
-//  }
-//}).addTo(map);
-//});
